@@ -1,6 +1,6 @@
 import { Card, CardFooter, CardHeader, Heading, Link, LinkBox, LinkOverlay } from '@chakra-ui/react';
 import NextLink from 'next/link';
-import {ConditionalWrapper} from '@scdp/ui/components/helpers';
+import {ConditionalWrapper} from '@scdp/ui/components';
 import { translateDate } from '@scdp/ui/lib';
 import { SITECORE_COMMUNITY_URL } from './sitecore-community.constants';
 

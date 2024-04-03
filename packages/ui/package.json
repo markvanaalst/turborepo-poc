@@ -4,22 +4,9 @@
   "private": true,
   "exports": {
     ".": "./src/index.ts",
-    "./components/cards": "./src/components/cards/index.ts",
-    "./components/common": "./src/components/common/index.ts",
-    "./components/dropdown": "./src/components/dropdown/index.ts",
-    "./components/helpers": "./src/components/helpers/index.ts",
-    "./components/hexagons": "./src/components/hexagons/index.ts",
-    "./components/integrations": "./src/components/integrations/index.ts",
-    "./components/links": "./src/components/links/index.ts",
-    "./components/lists": "./src/components/lists/index.ts",
-    "./components/logos": "./src/components/logos/index.ts",
-    "./components/promos": "./src/components/promos/index.ts",
-    "./components/social": "./src/components/social/index.ts",
-    "./components/video": "./src/components/video/index.ts",
-    "./lib": "./src/lib/index.ts",
-    "./theme": "./src/lib/theme/index.ts",
-    "./lib/assets": "./src/lib/assets.ts",
-    "./lib/utils": "./src/lib/utils.ts"
+    "./components": "./src/components/index.ts",
+    "./theme": "./src/theme/index.ts",
+    "./lib": "./src/lib/index.ts"
   },
   "scripts": {
     "lint": "eslint . --max-warnings 0",

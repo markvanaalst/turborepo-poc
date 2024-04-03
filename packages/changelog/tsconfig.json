@@ -4,8 +4,9 @@
     "lib": ["dom", "ES2015"],
     "types": ["jest", "node"],
     "outDir": "dist",
-    "rootDir": "./"
+    "rootDir": "src",
+
   },
-  "include": ["src","turbo","globals.d.ts"],
+  "include": ["src", "globals.d.ts"],
   "exclude": ["node_modules", "dist", "build"]
 }

@@ -2,7 +2,7 @@
 import { Card, CardBody, CardHeader, CardProps, Heading, Stack } from '@chakra-ui/react';
 import { SitecoreCommunityNewsOrEventItem } from '../SitecoreCommunityNewsOrEventItem';
 import type { SitecoreCommunityEvent } from '../types';
-import { TextLink } from '@scdp/ui/components/links';
+import { TextLink } from '@scdp/ui/components';
 
 type SitecoreCommunityEventsProps = CardProps & {
   title?: string;

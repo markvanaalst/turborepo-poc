@@ -1,0 +1,11 @@
+{
+    "extends": ["//"],
+    "pipeline": {
+      "build": {
+        "outputs": ["dist/**"],
+        "env": [
+          "NEXT_PUBLIC_PUBLIC_URL"
+        ]
+      }
+    }
+  }

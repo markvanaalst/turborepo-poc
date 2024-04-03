@@ -1,6 +1,5 @@
 import { NextPage } from 'next';
-import { Hero } from '@scdp/ui/components/common';
-import { ButtonLink } from '@scdp/ui';
+import { Hero, ButtonLink } from '@scdp/ui/components';
 
 export async function getStaticProps() {
   return {
