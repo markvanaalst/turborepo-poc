@@ -8,6 +8,7 @@ module.exports = {
     "eslint:recommended",
     "prettier",
     "eslint-config-turbo",
+    "plugin:@next/next/recommended",
   ],
   globals: {
     React: true,
