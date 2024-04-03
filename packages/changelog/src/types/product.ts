@@ -1,4 +1,4 @@
-import { GetProductLogoByVariant, Product as ProductLogo, Type, Variant } from '@scdp/ui/lib/assets';
+import { GetProductLogoByVariant, Product as ProductLogo, Type, Variant } from '@scdp/ui/lib';
 import { SitecoreProductResults } from './sitecoreProduct';
 
 export type Product = {

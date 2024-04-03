@@ -6,7 +6,8 @@
     ".": "./src/index.ts",
     "./components": "./src/components/index.ts",
     "./theme": "./src/theme/index.ts",
-    "./lib": "./src/lib/index.ts"
+    "./lib": "./src/lib/index.ts",
+    "./data": "./src/data/index.ts"
   },
   "scripts": {
     "lint": "eslint . --max-warnings 0",

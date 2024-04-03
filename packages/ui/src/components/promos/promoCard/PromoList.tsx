@@ -5,7 +5,7 @@ type PromoListProps = {
   data: PromoCardProps[] | undefined;
 };
 
-const PromoList = ({ data }: PromoListProps): JSX.Element | null => {
+export const PromoList = ({ data }: PromoListProps): JSX.Element | null => {
   if (data && data.length === 0) {
     return (
       <>

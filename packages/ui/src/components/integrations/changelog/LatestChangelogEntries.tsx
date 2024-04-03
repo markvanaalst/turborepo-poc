@@ -1,9 +1,10 @@
 import { Badge, Box, Card, CardBody, CardHeader, CardProps, Flex, Grid, HStack, Heading, Link, Stack, Text, chakra, useColorModeValue } from '@chakra-ui/react';
 import Image from 'next/image';
-import { ChangelogEntry } from 'sc-changelog/types/changeLogEntry';
-import { getSlug } from 'sc-changelog/utils/stringUtils';
-import { getChangelogEntryUrl } from 'sc-changelog/utils/urlBuilder';
-import { TextLink } from '../../../links/TextLink';
+import { ChangelogEntry } from '@scdp/changelog/types';
+import { getSlug } from '@scdp/changelog/utils';
+import { getChangelogEntryUrl } from '@scdp/changelog/utils';
+import { TextLink } from '../../links/TextLink';
+
 
 type ChangelogEntriesProps = CardProps & {
   entries: ChangelogEntry[];

@@ -1,6 +1,6 @@
 import { SitecoreCloudResults } from './sitecoreCloud';
 
-type SitecoreProduct = {
+export type SitecoreProduct = {
   id: string;
   productName: string;
   productDescription: string;

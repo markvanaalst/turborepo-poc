@@ -3,7 +3,7 @@ import type { SitecoreCommunityContent, SitecoreCommunityEvent } from './types';
 
 // Interfaces
 
-type SitecoreCommunityBaseResponse = {
+export type SitecoreCommunityBaseResponse = {
   comment_count: string;
   content_type: {
     name: string;
@@ -17,7 +17,7 @@ type SitecoreCommunityBaseResponse = {
   view_count: string;
 };
 
-type SitecoreCommunityEventResponse = SitecoreCommunityBaseResponse & {
+export type SitecoreCommunityEventResponse = SitecoreCommunityBaseResponse & {
   edited_date_display: string;
   end_date: string;
   location_name: string;
@@ -46,7 +46,7 @@ export type ForumOption =
   | 'storefrontsAndMarketplaces';
 export type SortOption = 'publish' | 'view' | 'created';
 
-type SitecoreCommunityOptions = {
+export type SitecoreCommunityOptions = {
   contentType?: ContentType;
   forum?: ForumOption;
   maxResults?: number;

@@ -1,7 +1,7 @@
 import { GetAllProducts, GetEntryCountByProductId } from './lib/products';
 import { ParseProduct, Product } from './types';
 
-export default async function GetProducts(isPreview: boolean): Promise<Product[]> {
+export async function GetProducts(isPreview: boolean): Promise<Product[]> {
   // Get all products
   const response = await GetAllProducts(isPreview);
   const products = ParseProduct(response.data);
