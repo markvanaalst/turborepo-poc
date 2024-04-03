@@ -8,6 +8,7 @@ module.exports = {
     tsconfigRootDir: __dirname,
   },
   "env": {
-    "jest": true
+    "jest": true,
+    "node": true
   }
 };

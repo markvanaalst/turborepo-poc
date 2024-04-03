@@ -23,6 +23,10 @@ module.exports = {
   env: {
     browser: true,
   },
+  "rules": {
+    "no-redeclare": "off",
+    'react/prop-types': 'off',
+  },
   settings: {
     "import/resolver": {
       typescript: {
